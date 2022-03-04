@@ -1,18 +1,5 @@
 #!/usr/bin/env python3
 
-# CS465 at Johns Hopkins University.
-# Module for working with a corpus of tagged sentences, in a particular format.
-
-# This code is adapted from Probs.py in the language modeling homework.
-# The main difference is that now we are dealing with tags as well as words.
-# Also, we've encapsulated this as a corpus of tagged sentences.
-# Also, we support integerization.
-
-# TODO: It would be nice to add support for weighting the examples.
-# For example, sentences from the supervised file could be returned
-# with a higher weight or sampled more often, so that they are more
-# important in the objective.
-
 import logging
 from pathlib import Path
 ##### TYPE DEFINITIONS (USED FOR TYPE ANNOTATIONS)
